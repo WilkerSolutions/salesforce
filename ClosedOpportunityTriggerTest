@@ -1,0 +1,11 @@
+@isTest
+public class ClosedOpportunityTriggerTest {
+    @isTest 
+    static void TestClosedOpportunityTrigger(){
+        
+        Opportunity OppTest = new Opportunity();
+        oppTest.StageName = 'Closed Won';
+        insert oppTest;
+        
+    }
+}
