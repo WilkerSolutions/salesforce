@@ -1,5 +1,0 @@
-trigger ClosedOpportunityTrigger on Opportunity (before insert, before update) {
-    
-    ClosedOpportunityTriggerHandler.newTaskOnOpportunity(Trigger.New);
-}
-
